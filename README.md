@@ -10,12 +10,11 @@ Scope of this sample project
 5. That's it you are done. Start the spring boot report application.
 
 One can trigger the report using post rest webservice exposed by the application using any rest client For Example: Postman
-  Host name: http://<hostname>:<port>/report
-  Method : POST
-  Request Body:
-    {
-
-     "emailID":"abc@xyz.com",
-     "reportName" : "INVOICE_REPORT"
-
-   }
+  - Host name: http://<hostname>:<port>/report
+  - Method : POST
+  - Request Body:
+     {
+      "emailID":"abc@xyz.com",
+      "reportName" : "INVOICE_REPORT"
+     }
+    
